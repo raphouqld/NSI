@@ -14,7 +14,7 @@ print(type(JE_SUIS_UN_FLOTTANT))
 # saisie du nom
 nom = input("Quel est votre nom?")
 
-# saisie du prenom et affichage du message de bienvenue
+# saisie du prénom et affichage du message de bienvenue
 prenom = input("Quel est votre prénom ?")
 print("Bonjour,", prenom, nom, "!")
 

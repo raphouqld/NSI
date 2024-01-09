@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(219, 219, 219);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px 40px 10px 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-size: 14;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: right;
+}

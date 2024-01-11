@@ -1,7 +1,8 @@
 body{
-    background-color: rgb(219, 219, 219);
     font-family: 'Courier New', Courier, monospace;
     margin: 40px 40px 10px 40px;
+    background-color: rgb(250, 215, 215);
+    color: rgb(83, 29, 29);
 }
 
 h1{
@@ -13,7 +14,50 @@ h2{
     text-align: center;
 }
 
-div{
+h3{
+    text-decoration: underline;
+}
+
+img{
+    border-radius: 10%;
+    width: 10%;
+}
+
+#imgdroite{
     display: flex;
     justify-content: right;
+}
+
+
+
+#entete, #menu, #contenu, #footer {
+    padding:1px 0;
+}
+
+#tete {
+    text-align:center;
+}
+
+#main {
+    margin:auto;
+}
+
+#colgauche{
+    float:left;
+    width: 350px;
+    height: 500px;
+    background-color: rgba(251, 56, 56, 0.658);
+    border-radius: 15px;
+}
+
+#contenu {
+    margin-left:355px;
+    background-color: rgba(234, 67, 67, 0.417);
+    border-radius: 15px;
+    min-width: 350px;
+}
+
+#pied {
+    text-align:center;
+    clear:both;
 }

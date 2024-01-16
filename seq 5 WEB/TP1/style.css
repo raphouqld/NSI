@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    margin: 40px 40px 10px 40px;
+    margin: 40px 40px 40px 40px;
     background-color: rgb(250, 215, 215);
     color: rgb(83, 29, 29);
 }
@@ -19,7 +19,10 @@ h3{
 }
 
 img{
-    border-radius: 10%;
+    border-radius: 20px;
+}
+
+#img10{
     width: 10%;
 }
 
@@ -28,10 +31,19 @@ img{
     justify-content: right;
 }
 
+a{
+    color: rgb(125, 0, 0);
+    transition: 0.2s;
+}
 
+a:hover{
+    color: rgb(255, 0, 0);
+    font-size: larger;
+    transition-delay: 0.1s;
+}
 
 #entete, #menu, #contenu, #footer {
-    padding:1px 0;
+    padding: 1px 0;
 }
 
 #tete {
@@ -44,20 +56,24 @@ img{
 
 #colgauche{
     float:left;
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    min-height: 820px;
+    height: auto;
     background-color: rgba(251, 56, 56, 0.658);
     border-radius: 15px;
 }
 
 #contenu {
-    margin-left:355px;
+    margin-left:405px;
     background-color: rgba(234, 67, 67, 0.417);
     border-radius: 15px;
-    min-width: 350px;
+    min-width: 400px;
+    min-height: 820px;
 }
 
 #pied {
     text-align:center;
     clear:both;
+    background-color: rgb(255, 185, 185);
+    border-radius: 15px;
 }

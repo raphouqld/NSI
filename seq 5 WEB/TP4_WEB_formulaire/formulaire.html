@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulaire Test</title>
+  </head>
+
+  <body>
+    <form method="post" action="traitement_formulaire.php">
+      <label for="nom">Votre nom : </label>
+      <input type="text" name="nom" id="nom"/>
+      <br><br>
+      <label for="prenom">Votre prénom : </label>
+      <input type="text" name="prenom" id="prenom" />
+      <br><br>
+      <label for="mdp">Votre mot de passe : </label>
+      <input type="password" name="mdp" id="mdp" />
+      <br><br>
+    </form>
+
+    <p>Aimez-vous le chocolat ?</p>
+    <input type="radio" name="choixChocolat" value="1" id="choix1">
+    <label for="choix1">Non</label>
+    <input type="radio" name="choixChocolat" value="2" id="choix2">
+    <label for="choix2">Oui</label>
+    <br><br>
+
+    <label for="moyen_transport">Choisissez votre moyen de transport pour venir au lycée :</label>
+    <select name="transport" id="moyen_transport">
+      <option value="bus">Bus</option>
+      <option value="voiture">Voiture</option>
+      <option value="velo">Vélo</option>
+      <option value="autre">Autre</option>
+    </select>
+    <br><br>
+    <button type="submit">Envoyer</button>
+     
+  </body>
+</html>

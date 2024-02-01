@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 202, 202);
+}
+
+em{
+    color: blue;
+}
+
+strong{
+    color: red;
+}
+
+#logoimg{
+    height: 95px;
+    width: 255px;
+}
+
+#logo{
+    float: left;
+}
+
+h1{
+    text-align: center;
+}
+
+#en-tete{
+    text-align: center;
+}
+
+#conv{
+    border: 2px solid red;
+    margin: 20px;
+    padding-left: 10px;
+}

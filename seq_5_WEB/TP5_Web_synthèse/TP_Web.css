@@ -1,6 +1,5 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 202, 202);
 }
 
 em{
@@ -31,5 +30,15 @@ h1{
 #conv{
     border: 2px solid red;
     margin: 20px;
-    padding-left: 10px;
+    padding: 10px;
+}
+
+#form{
+    border: 2px solid purple;
+    margin: 20px;
+    padding: 10px;
+}
+
+input{
+    background-color: rgb(227, 227, 227);
 }

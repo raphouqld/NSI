@@ -44,3 +44,8 @@ input{
     border-radius: 10px;
     background-color: rgb(245, 245, 255);
 }
+
+button{
+    font-size: 20px;
+    padding: 10px;
+}

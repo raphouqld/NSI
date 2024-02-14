@@ -30,14 +30,7 @@ button{
 input{
     border-radius: 5px;
 }
-#div_ajouter{
-    border: 2px solid rgb(103, 103, 252);
-    padding: 10px ;
-    margin: 20px;
-    border-radius: 10px;
-    background-color: rgb(245, 245, 255);
-}
-#div_rechercher{
+#div_blocks{
     border: 2px solid rgb(103, 103, 252);
     padding: 10px ;
     margin: 20px;

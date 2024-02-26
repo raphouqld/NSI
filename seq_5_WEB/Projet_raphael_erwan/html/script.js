@@ -11,7 +11,7 @@ function ajouterNum(){
 
 function rechercherNum(){
     // Récuperer
-    var nom = prompt("Entrer un nom de famille");
+    var nom = prompt("Entrer un nom");
     var posNom = repertoire.indexOf(nom);
     var posNumero = posNom+1
     if (posNom != -1){

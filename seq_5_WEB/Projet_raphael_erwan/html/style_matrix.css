@@ -69,3 +69,7 @@ input[type="text"] {
         opacity: 1;
     }
 }
+
+#small_img {
+    width: 1px;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    animation: fadeIn 1s ease-in-out;
+    background: black url("space.gif") no-repeat fixed center;
+    background-size: 150%;
+}
+
+#entete_logo {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+#logo {
+    flex: 0 0 100px;
+}
+
+#entete {
+    text-align: center;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+#div_blocks {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+input[type="text"] {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

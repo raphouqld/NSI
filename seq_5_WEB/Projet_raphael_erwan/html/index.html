@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="lienCSS" rel="stylesheet" href="style_dark.css">
     <title>Répertoire téléphonique</title>
 </head>
 <body>
@@ -16,17 +16,23 @@
             <h1>Bienvenue !</h1>
             <h3>Ce répertoire téléphonique en ligne vous permet d'ajouter vos informations, et de rechercher des numéros de téléphone</h3>
         </div>
+        
+        <div id="entete_theme">
+            <button onclick="changerTheme()">Changer de thème</button>
+        </div>
     </div>
     
     <div id="div_blocks">
         <h3>Ajouter un numéro</h3>
         <button onclick="ajouterNum()">Cliquer ici pour ajouter un numéro</button>
+        <br><br>
         <p id="outputAjouter"></p>
     </div>
 
     <div id="div_blocks">
         <h3>Rechercher un numéro</h3>
         <button onclick="rechercherNum()">Cliquer ici pour rechercher un numéro</button>
+        <br><br>
         <p id="outputRechercher"></p>
     </div>
 <script src="script.js"></script>

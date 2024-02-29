@@ -3,7 +3,7 @@ let repertoire = ["raphael","0769125614","erwan","0664934770"]
 function ajouterNum(){
     // Récuperer les élements
     var quelNom = prompt("Quel est votre nom ?")
-    quelNom.toLowerCase(); // Mettre en minuscule
+    quelNom = quelNom.toLowerCase(); // Mettre en minuscule
     var quelNumero = prompt("Quel est votre Numéro ?");
 
     // Ajouter au repertoire
@@ -13,7 +13,7 @@ function ajouterNum(){
 function rechercherNum(){
     // Récuperer
     var nom = prompt("Entrer un nom");
-    nom.toLowerCase(); // Mettre en minuscule
+    nom = nom.toLowerCase(); // Mettre en minuscule
     var posNom = repertoire.indexOf(nom);
     var posNumero = posNom+1
 

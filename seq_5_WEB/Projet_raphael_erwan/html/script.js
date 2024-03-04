@@ -39,6 +39,9 @@ function changerTheme(){
         lienCSS.setAttribute('href','style_space.css'); // Change vers le thème espace
     }
     else if (nomFichierCSS === 'style_space.css') {
+        lienCSS.setAttribute('href','style_sea.css'); // Change vers le thème sea
+    }
+    else if (nomFichierCSS === 'style_sea.css') {
         lienCSS.setAttribute('href','style_light.css'); // Change vers le thème clair
     }
 }
